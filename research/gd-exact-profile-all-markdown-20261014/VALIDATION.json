@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-14T22:30:25.201222+08:00",
+  "markdown_coverage_exact": true,
+  "markdown_entries_checked": 3407,
+  "original_byte_hashes_checked": 3422,
+  "embedded_full_bodies_checked": 3422,
+  "source_content_rechecked_after_export": true,
+  "no_markdown_deduplication": true,
+  "utf8_parts_reassemble_master_exactly": true,
+  "parts_checked": 155,
+  "original_problem_hash_matches": true,
+  "private_worker_memory_read": false,
+  "research_restarted": false,
+  "math_reproved_or_verified": false
+}

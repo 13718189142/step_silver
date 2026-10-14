@@ -1,0 +1,7 @@
+# Preserve the archived research files byte for byte, including historical line endings.
+research/** -text
+archives/** -text
+.gitattributes text eol=lf
+README.md text eol=lf
+PROMPT.md text eol=lf
+UPLOAD_MANIFEST.json text eol=lf

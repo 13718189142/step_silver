@@ -1,0 +1,17 @@
+{
+  "prepared_at": "2026-10-14T22:51:10.355044+08:00",
+  "destination": "https://github.com/13718189142/step_silver",
+  "authorized_action": "Upload the full research Markdown package and prompt requested by the user",
+  "snapshot_directory": "research/gd-exact-profile-all-markdown-20261014",
+  "snapshot_files_verified": 3591,
+  "archive_path": "archives/gd-exact-profile-all-markdown-20261014.zip",
+  "archive_sha256": "d121ea46f86cafe8c4588e8f5942bdcdd07f885aacd347632bb69303442936b5",
+  "master_sha256": "f57197fc2936367ca26e08d81eca8758243aa2c417643c356392b83506df2f8b",
+  "root_prompt": {
+    "file": "PROMPT.md",
+    "sha256": "c91423cc3731e06b3b35d1d219fbac40d00bfa1e2fa4c882c1f8c330d146af11",
+    "change": "Only the source-location paragraph was adapted to the GitHub repository."
+  },
+  "source_snapshot_modified": false,
+  "mathematical_target": "OPEN"
+}

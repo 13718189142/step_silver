@@ -1,0 +1,11 @@
+网页端 Pro 使用方式
+
+1. 新建研究对话，并在界面选择你要使用的 Pro 模式。
+2. 上传 01_RESEARCH_CONTEXT.txt 和 02_CORE_PROOFS.txt。
+3. 粘贴同目录 03_PROMPT.txt 中的提示词。
+
+这两个文件包含原始任务、图片五项对应的研究说明、来源校正、最新交接、四份核心接受事实及当前路线完整草稿。
+不需要首先上传约 169 MB 的原始证据 ZIP。网页会话不能仅凭 D 盘路径读取本地文件；若需要其他证据，再上传指定文件。
+主要论文 PDF 可按需要从以下目录另外上传：
+D:\Danus\runtime\handoffs\gd-exact-profile-20261010\materials\literature
+本文本附件没有把论文 PDF 的全文嵌入；原论文需由上传 PDF 或可访问的公开来源核对。
