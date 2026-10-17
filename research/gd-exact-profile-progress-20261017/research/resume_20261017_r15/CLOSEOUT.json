@@ -1,0 +1,74 @@
+{
+  "project": "gd-exact-profile-20260926",
+  "wave": "R15",
+  "status": "closed",
+  "closedAtUtc": "2026-10-17T04:16:43.0078422+00:00",
+  "originalTarget": "OPEN",
+  "applicationGoal": "active",
+  "requestedModel": "gpt-6-astra",
+  "requestedEffort": "ultra",
+  "nativeCalls": 3,
+  "allNativeCallsCompleted": true,
+  "mathematicalPrograms": 0,
+  "formalSubmissions": 0,
+  "acceptedFacts": 18,
+  "newAcceptedFacts": 0,
+  "originalProblemSha256": "3ecc3159a696e8528ebc727776d42f657cfbc6842e9212b28c870fcd05edb89d",
+  "artifacts": [
+    {
+      "path": "resume_20261017_r15/WAVE.md",
+      "bytes": 4483,
+      "sha256": "cc7d62f3f8632069fbb7231f841dec6cdaad30cfc509753fb90ac4b0285fe2b1"
+    },
+    {
+      "path": "resume_20261017_r15/R15_PROGRESS.md",
+      "bytes": 10529,
+      "sha256": "6e00f4d5c65c6fdf8e16e926866e3b7e73337342dd366e1d77bb65b24b089838"
+    },
+    {
+      "path": "resume_20261017_r15/HALF_HISTORY_PD_JOIN.md",
+      "bytes": 7972,
+      "sha256": "d24c4b411a846a7bc0622d46db57bdb88bcb23658a02adb250b94a7c6c5976b5"
+    },
+    {
+      "path": "resume_20261017_r15/SILVER_DISPLACEMENT_COUNTEREXAMPLE.md",
+      "bytes": 4116,
+      "sha256": "6cecde411f7bd30b61df639def21ef10c21e5acf5da29297f50a16070ae25ae2"
+    },
+    {
+      "path": "resume_20261017_r15/SOURCE_CHECK_20261017.md",
+      "bytes": 2002,
+      "sha256": "d83532e6c1236dc27516bedc400cc2a88e3954950ab6b5ef8fb8ceefe46d2a31"
+    },
+    {
+      "path": "tree_energy_20261017_r15/PROOF_ATTEMPT.md",
+      "bytes": 23149,
+      "sha256": "18a35af875d9c081ee103350ac916d5c5e63604623c79d3f92aa96d38a04f0ce"
+    },
+    {
+      "path": "tree_energy_20261017_r15/HANDOFF.md",
+      "bytes": 6800,
+      "sha256": "736aead138f909a0d2fa878ac733f1736ee4aedf2c05516acacc6fafddc23c6e"
+    },
+    {
+      "path": "nonunit_join_20261017_r15/PROOF_ATTEMPT.md",
+      "bytes": 23409,
+      "sha256": "2eb48b988cac91778ef276d53e2e03bbf8e3f8ce5501dd0ccfb18c42104a8349"
+    },
+    {
+      "path": "nonunit_join_20261017_r15/HANDOFF.md",
+      "bytes": 4714,
+      "sha256": "7f990b0afd70142a548578cca2df971231a84d02e102c61bd8b2924a0b5234a8"
+    },
+    {
+      "path": "typed_adversary_20261017_r15/PROOF_ATTEMPT.md",
+      "bytes": 21802,
+      "sha256": "d9902c42a5dc96f0e1e2a32c3132ee13ac364f4bc7eb0ab5b7be22c9372e0b00"
+    },
+    {
+      "path": "typed_adversary_20261017_r15/HANDOFF.md",
+      "bytes": 7243,
+      "sha256": "6139bf9a77c4f991b3f594c9d05a4cb5fe523f5293ee5daaa26b244c8ff10bb4"
+    }
+  ]
+}

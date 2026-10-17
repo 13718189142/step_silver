@@ -4,10 +4,21 @@
 
 **原始数学问题仍未解决。** 本仓库用于资料交接和继续研究，旧系统接受事实、未验证草稿、数值观察和中断线索均需保留各自的证据等级。
 
+## 最新进度：2026-10-17，研究已暂停
+
+本次保存了 R15–R17 的全部新增研究 Markdown、轮次记录和原始候选稿。Goal 已按用户要求暂停；历史文件中的 ACTIVE 状态不代表允许重新启动研究。
+
+- [最新进展与恢复入口](research/gd-exact-profile-progress-20261017/README.md)
+- [R17 阶段总结与尚未闭合的缺口](research/gd-exact-profile-progress-20261017/research/resume_20261017_r17/R17_PROGRESS.md)
+- [增量压缩包，约 239 KB](archives/gd-exact-profile-progress-20261017.zip?raw=true)
+- [文件来源与哈希清单](research/gd-exact-profile-progress-20261017/MANIFEST.json)
+
+新增结果包括任意深度的受限混合轨迹结论、精确 Silver 参数下的全函数类估计，以及候选下界拼接路线的具体代价分析。一般光滑凸函数上的目标证明仍未完成；人工审计通过不等于 Danus 验证器接受。此前完整档案保留在下方，新增内容没有再次拼接成重复的大文件。
+
 ## 如何交给新系统
 
 1. 把 [PROMPT.md](PROMPT.md) 全文作为任务消息发送。
-2. 提供 [完整资料压缩包](archives/gd-exact-profile-all-markdown-20261014.zip?raw=true)，或让具有仓库访问能力的系统读取本仓库。
+2. 同时提供 [最新增量包](archives/gd-exact-profile-progress-20261017.zip?raw=true) 与 [历史完整资料压缩包](archives/gd-exact-profile-all-markdown-20261014.zip?raw=true)，或让具有仓库访问能力的系统先读取最新进展入口。
 3. 主文件较大，不能在线预览时可下载原始文件，或按来源索引读取单文件和无删减分卷。不要把未读取的内容当成已经审查。
 
 ## 资料入口

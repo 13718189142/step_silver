@@ -1,0 +1,71 @@
+{
+  "project": "gd-exact-profile-20260926",
+  "wave": "R16",
+  "status": "closed",
+  "closedAtUtc": "2026-10-17T04:58:56.8347833+00:00",
+  "previousGoalTurnClassification": "progress",
+  "originalTarget": "OPEN",
+  "applicationGoal": "active",
+  "requestedModel": "gpt-6-astra",
+  "requestedEffort": "ultra",
+  "exploratoryNativeCalls": 2,
+  "finishedObjectAuditCalls": 1,
+  "mathematicalPrograms": 0,
+  "formalSubmissions": 0,
+  "acceptedFacts": 18,
+  "newAcceptedFacts": 0,
+  "targetExists": false,
+  "originalProblemSha256": "3ecc3159a696e8528ebc727776d42f657cfbc6842e9212b28c870fcd05edb89d",
+  "artifacts": [
+    {
+      "path": "resume_20261017_r16/WAVE.md",
+      "bytes": 6039,
+      "sha256": "fbc614578a52152ec92d38d8b5002e516cd076fc4d06a1943d96d5f3669505b8"
+    },
+    {
+      "path": "resume_20261017_r16/R16_PROGRESS.md",
+      "bytes": 7899,
+      "sha256": "888c6757f4cd850f69e56c08ceaad8a8ef79781540ad434d998cf29cd0556000"
+    },
+    {
+      "path": "resume_20261017_r16/HUBER_DATA_REPAIR.md",
+      "bytes": 6674,
+      "sha256": "7f23abdc70d73e7bde1c2503fdae47da152ab6590c2e3d01c32ce1890e0632d0"
+    },
+    {
+      "path": "resume_20261017_r16/CAP_REPAIR_OPTIMALITY.md",
+      "bytes": 6446,
+      "sha256": "325cc228e01c58e1fee70d54e951d92ec6f6d14a72cb1613f5299134475fe683"
+    },
+    {
+      "path": "terminal_reserve_20261017_r16/PROOF_ATTEMPT.md",
+      "bytes": 19461,
+      "sha256": "34d5e03b8c28da44525541fc8946bc7f0e6d9ee92264bc25fc8a7da58383026f"
+    },
+    {
+      "path": "terminal_reserve_20261017_r16/HANDOFF.md",
+      "bytes": 4845,
+      "sha256": "0fe2bcd8c7794010e123c52f86180083a60e3516dfe1739f47dc27178e36b965"
+    },
+    {
+      "path": "normal_geometry_20261017_r16/PROOF_ATTEMPT.md",
+      "bytes": 17239,
+      "sha256": "d89d7ff818c36cc80614e668c47e14cfdf15cea06f0e0be3b5fb423e466b7222"
+    },
+    {
+      "path": "normal_geometry_20261017_r16/HANDOFF.md",
+      "bytes": 3039,
+      "sha256": "de74695f23b70b8ab967c9b9f1af99fdd232c02ad1676ce273ba29454f644dc2"
+    },
+    {
+      "path": "audit_huber_repair_20261017_r16/AUDIT.md",
+      "bytes": 16231,
+      "sha256": "59bc9d41c53f40528f4c45f04b7b7434acea279f5aeb821cafb9a6bc2183d524"
+    },
+    {
+      "path": "audit_huber_repair_20261017_r16/HANDOFF.md",
+      "bytes": 2626,
+      "sha256": "e52c1e184fddce7d756a3c06dde90017dc700b52de48d185b957ba6801b76255"
+    }
+  ]
+}

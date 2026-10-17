@@ -1,0 +1,284 @@
+{
+  "createdAtUtc": "2026-10-17T11:06:12.0772308+00:00",
+  "destination": "https://github.com/13718189142/step_silver",
+  "baselineCommit": "d829bc64702315ae99ce2ec26da0faa5f94a640e",
+  "goalStatus": "paused",
+  "mathematicalTarget": "OPEN",
+  "sourceProject": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926",
+  "newResearchMarkdown": 31,
+  "researchPacketFiles": 34,
+  "copiedSources": 36,
+  "baselineReferenceEntries": 1342,
+  "coverage": "Every new or changed project/research Markdown against the published 20261014 SOURCE_INDEX is included; all R15-R17 closeout JSON records are included",
+  "acceptedFacts": 18,
+  "newAcceptedFacts": 0,
+  "targetExists": false,
+  "sourceCopies": [
+    {
+      "path": "research/audit_affine_slack_20261017_r17/AUDIT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\audit_affine_slack_20261017_r17\\AUDIT.md",
+      "bytes": 17255,
+      "sha256": "d1611e13cb783d4ea8e1dc03c1d1bcc79eb2791e46127c8e0b1d23c158c728f8",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/audit_affine_slack_20261017_r17/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\audit_affine_slack_20261017_r17\\HANDOFF.md",
+      "bytes": 4007,
+      "sha256": "7dbf3565d9897adced5b11bdfcd0496c5edbb1402b6c585ded973aad7e571338",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/audit_huber_repair_20261017_r16/AUDIT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\audit_huber_repair_20261017_r16\\AUDIT.md",
+      "bytes": 16231,
+      "sha256": "59bc9d41c53f40528f4c45f04b7b7434acea279f5aeb821cafb9a6bc2183d524",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/audit_huber_repair_20261017_r16/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\audit_huber_repair_20261017_r16\\HANDOFF.md",
+      "bytes": 2626,
+      "sha256": "e52c1e184fddce7d756a3c06dde90017dc700b52de48d185b957ba6801b76255",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/checkpoint_repair_20261017_r17/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\checkpoint_repair_20261017_r17\\HANDOFF.md",
+      "bytes": 5852,
+      "sha256": "57b85f4e493ec434eb2f8ccc645367fcf58faf79130064832be95d1c840f495e",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/checkpoint_repair_20261017_r17/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\checkpoint_repair_20261017_r17\\PROOF_ATTEMPT.md",
+      "bytes": 22469,
+      "sha256": "ec26d639f2b47684622989a3579623d9b7b2a23e2ce4311624595ac1eb5d1fdb",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/nonunit_join_20261017_r15/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\nonunit_join_20261017_r15\\HANDOFF.md",
+      "bytes": 4714,
+      "sha256": "7f990b0afd70142a548578cca2df971231a84d02e102c61bd8b2924a0b5234a8",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/nonunit_join_20261017_r15/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\nonunit_join_20261017_r15\\PROOF_ATTEMPT.md",
+      "bytes": 23409,
+      "sha256": "2eb48b988cac91778ef276d53e2e03bbf8e3f8ce5501dd0ccfb18c42104a8349",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/normal_geometry_20261017_r16/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\normal_geometry_20261017_r16\\HANDOFF.md",
+      "bytes": 3039,
+      "sha256": "de74695f23b70b8ab967c9b9f1af99fdd232c02ad1676ce273ba29454f644dc2",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/normal_geometry_20261017_r16/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\normal_geometry_20261017_r16\\PROOF_ATTEMPT.md",
+      "bytes": 17239,
+      "sha256": "d89d7ff818c36cc80614e668c47e14cfdf15cea06f0e0be3b5fb423e466b7222",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r15/CLOSEOUT.json",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r15\\CLOSEOUT.json",
+      "bytes": 2543,
+      "sha256": "5e0c358e3ef41124e55ae1f091533ca726cca64995ee1189963c324e4db53da7",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r15/HALF_HISTORY_PD_JOIN.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r15\\HALF_HISTORY_PD_JOIN.md",
+      "bytes": 7972,
+      "sha256": "d24c4b411a846a7bc0622d46db57bdb88bcb23658a02adb250b94a7c6c5976b5",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r15/R15_PROGRESS.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r15\\R15_PROGRESS.md",
+      "bytes": 10529,
+      "sha256": "6e00f4d5c65c6fdf8e16e926866e3b7e73337342dd366e1d77bb65b24b089838",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r15/SILVER_DISPLACEMENT_COUNTEREXAMPLE.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r15\\SILVER_DISPLACEMENT_COUNTEREXAMPLE.md",
+      "bytes": 4116,
+      "sha256": "6cecde411f7bd30b61df639def21ef10c21e5acf5da29297f50a16070ae25ae2",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r15/SOURCE_CHECK_20261017.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r15\\SOURCE_CHECK_20261017.md",
+      "bytes": 2002,
+      "sha256": "d83532e6c1236dc27516bedc400cc2a88e3954950ab6b5ef8fb8ceefe46d2a31",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r15/WAVE.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r15\\WAVE.md",
+      "bytes": 4483,
+      "sha256": "cc7d62f3f8632069fbb7231f841dec6cdaad30cfc509753fb90ac4b0285fe2b1",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r16/CAP_REPAIR_OPTIMALITY.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r16\\CAP_REPAIR_OPTIMALITY.md",
+      "bytes": 6446,
+      "sha256": "325cc228e01c58e1fee70d54e951d92ec6f6d14a72cb1613f5299134475fe683",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r16/CLOSEOUT.json",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r16\\CLOSEOUT.json",
+      "bytes": 2440,
+      "sha256": "2f6528390ee4a5cd033cbb0b5b46183966ccdf9ff202ed8120caf34c5a9443a0",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r16/HUBER_DATA_REPAIR.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r16\\HUBER_DATA_REPAIR.md",
+      "bytes": 6674,
+      "sha256": "7f23abdc70d73e7bde1c2503fdae47da152ab6590c2e3d01c32ce1890e0632d0",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r16/R16_PROGRESS.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r16\\R16_PROGRESS.md",
+      "bytes": 7899,
+      "sha256": "888c6757f4cd850f69e56c08ceaad8a8ef79781540ad434d998cf29cd0556000",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r16/WAVE.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r16\\WAVE.md",
+      "bytes": 6039,
+      "sha256": "fbc614578a52152ec92d38d8b5002e516cd076fc4d06a1943d96d5f3669505b8",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r17/AFFINE_RIGHT_WITH_SLACK.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r17\\AFFINE_RIGHT_WITH_SLACK.md",
+      "bytes": 8269,
+      "sha256": "8bfbe3d16d6673b02e50ba906fa14d628e5b0820d916ce3f4c74eb3319f69ba8",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r17/CLOSEOUT.json",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r17\\CLOSEOUT.json",
+      "bytes": 2940,
+      "sha256": "5d18042e599f005fbf5926ccd2325ea0e4bc4f3944c9feb43646323def952166",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r17/NORMAL_RIGHT_RESERVE.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r17\\NORMAL_RIGHT_RESERVE.md",
+      "bytes": 5851,
+      "sha256": "95b455d9775b7ea6ed6566f0ee5b52bc0490faceefaf0e6a0954e3a424699d4b",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r17/R17_PROGRESS.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r17\\R17_PROGRESS.md",
+      "bytes": 9276,
+      "sha256": "12d1e5f805d479ef8c10007c7b0151a70aa024312823c4bce519d89042fd992f",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/resume_20261017_r17/WAVE.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\resume_20261017_r17\\WAVE.md",
+      "bytes": 5042,
+      "sha256": "c7b2afccf1835f9e842a62fdae580b39dac387f4c4d7dfeeda458a6908a52705",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/terminal_reserve_20261017_r16/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\terminal_reserve_20261017_r16\\HANDOFF.md",
+      "bytes": 4845,
+      "sha256": "0fe2bcd8c7794010e123c52f86180083a60e3516dfe1739f47dc27178e36b965",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/terminal_reserve_20261017_r16/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\terminal_reserve_20261017_r16\\PROOF_ATTEMPT.md",
+      "bytes": 19461,
+      "sha256": "34d5e03b8c28da44525541fc8946bc7f0e6d9ee92264bc25fc8a7da58383026f",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/tree_energy_20261017_r15/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\tree_energy_20261017_r15\\HANDOFF.md",
+      "bytes": 6800,
+      "sha256": "736aead138f909a0d2fa878ac733f1736ee4aedf2c05516acacc6fafddc23c6e",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/tree_energy_20261017_r15/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\tree_energy_20261017_r15\\PROOF_ATTEMPT.md",
+      "bytes": 23149,
+      "sha256": "18a35af875d9c081ee103350ac916d5c5e63604623c79d3f92aa96d38a04f0ce",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/typed_adversary_20261017_r15/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\typed_adversary_20261017_r15\\HANDOFF.md",
+      "bytes": 7243,
+      "sha256": "6139bf9a77c4f991b3f594c9d05a4cb5fe523f5293ee5daaa26b244c8ff10bb4",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/typed_adversary_20261017_r15/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\typed_adversary_20261017_r15\\PROOF_ATTEMPT.md",
+      "bytes": 21802,
+      "sha256": "d9902c42a5dc96f0e1e2a32c3132ee13ac364f4bc7eb0ab5b7be22c9372e0b00",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/variable_right_20261017_r17/HANDOFF.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\variable_right_20261017_r17\\HANDOFF.md",
+      "bytes": 3380,
+      "sha256": "eead4260bfdfe80676150009e649c14330f750a461b93cab71946bf25968ade0",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "research/variable_right_20261017_r17/PROOF_ATTEMPT.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\research\\variable_right_20261017_r17\\PROOF_ATTEMPT.md",
+      "bytes": 19408,
+      "sha256": "e059dab952fe7f0778fd812597613c6179e599f32580a7e37b4e58ace2533f03",
+      "evidence": "research draft or manual-audit record; no new Danus acceptance"
+    },
+    {
+      "path": "PROBLEM.md",
+      "source": "D:\\Danus\\runtime\\projects\\gd-exact-profile-20260926\\PROBLEM.md",
+      "bytes": 21086,
+      "sha256": "3ecc3159a696e8528ebc727776d42f657cfbc6842e9212b28c870fcd05edb89d",
+      "evidence": "Original problem preserved verbatim; later source notes correct historical Ye-Liu attribution"
+    },
+    {
+      "path": "external_candidate/COMPLETE_RESOLUTION_SUBMITTED.txt",
+      "source": "C:\\Users\\13781\\.codex\\attachments\\615383ea-b580-4f6b-9dcf-e97ad27f08f8\\Pasted text.txt",
+      "bytes": 10281,
+      "sha256": "2ffe5251798516a3909bfbe0c24cb4fcf1e7580e13a2b3b1b0f52f398ee65701",
+      "evidence": "Submitted proposal; complete-resolution claim not accepted"
+    }
+  ],
+  "generatedFiles": [
+    {
+      "path": "README.md",
+      "bytes": 5613,
+      "sha256": "e8ba6736a10995322a6dafe3cc5ba5570d6c0b94dce209e180ef3e539739b7af",
+      "evidence": "Preservation metadata; not mathematical verification"
+    },
+    {
+      "path": "BASELINE_REFERENCE_MAP.csv",
+      "bytes": 335886,
+      "sha256": "1f7e9f1d5e577452ac7a65d42ec141f842e1da99e30a4f255dfcefed4673fdfb",
+      "evidence": "Preservation metadata; not mathematical verification"
+    }
+  ]
+}

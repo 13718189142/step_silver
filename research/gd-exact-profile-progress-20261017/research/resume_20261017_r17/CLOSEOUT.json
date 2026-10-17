@@ -1,0 +1,77 @@
+{
+  "project": "gd-exact-profile-20260926",
+  "wave": "R17",
+  "status": "closed",
+  "closedAtUtc": "2026-10-17T06:58:04.4505263+00:00",
+  "mathematicalDeadlineUtc": "2026-10-17T05:50:00Z",
+  "allNativeCallsCompletedBeforeDeadline": true,
+  "currentGoalTurnClassification": "progress",
+  "originalTarget": "OPEN",
+  "applicationGoal": "paused",
+  "pauseAuthority": "Explicit operator request: 保存目前进度后暂停, 上传已有进度到git",
+  "requestedModel": "gpt-6-astra",
+  "requestedEffort": "ultra",
+  "exploratoryNativeCalls": 2,
+  "finishedObjectAuditCalls": 1,
+  "mathematicalPrograms": 0,
+  "formalSubmissions": 0,
+  "acceptedFacts": 18,
+  "newAcceptedFacts": 0,
+  "targetExists": false,
+  "originalProblemSha256": "3ecc3159a696e8528ebc727776d42f657cfbc6842e9212b28c870fcd05edb89d",
+  "nativeAgents": "All three R17 agents returned final handoffs and show completed",
+  "dockerStatus": "Linux-engine pipe unavailable during pause check; no service or worker started",
+  "publication": "Separately authorized after research pause; verify a later publication receipt",
+  "artifacts": [
+    {
+      "path": "resume_20261017_r17/WAVE.md",
+      "bytes": 5042,
+      "sha256": "c7b2afccf1835f9e842a62fdae580b39dac387f4c4d7dfeeda458a6908a52705"
+    },
+    {
+      "path": "resume_20261017_r17/R17_PROGRESS.md",
+      "bytes": 9276,
+      "sha256": "12d1e5f805d479ef8c10007c7b0151a70aa024312823c4bce519d89042fd992f"
+    },
+    {
+      "path": "resume_20261017_r17/AFFINE_RIGHT_WITH_SLACK.md",
+      "bytes": 8269,
+      "sha256": "8bfbe3d16d6673b02e50ba906fa14d628e5b0820d916ce3f4c74eb3319f69ba8"
+    },
+    {
+      "path": "resume_20261017_r17/NORMAL_RIGHT_RESERVE.md",
+      "bytes": 5851,
+      "sha256": "95b455d9775b7ea6ed6566f0ee5b52bc0490faceefaf0e6a0954e3a424699d4b"
+    },
+    {
+      "path": "variable_right_20261017_r17/PROOF_ATTEMPT.md",
+      "bytes": 19408,
+      "sha256": "e059dab952fe7f0778fd812597613c6179e599f32580a7e37b4e58ace2533f03"
+    },
+    {
+      "path": "variable_right_20261017_r17/HANDOFF.md",
+      "bytes": 3380,
+      "sha256": "eead4260bfdfe80676150009e649c14330f750a461b93cab71946bf25968ade0"
+    },
+    {
+      "path": "checkpoint_repair_20261017_r17/PROOF_ATTEMPT.md",
+      "bytes": 22469,
+      "sha256": "ec26d639f2b47684622989a3579623d9b7b2a23e2ce4311624595ac1eb5d1fdb"
+    },
+    {
+      "path": "checkpoint_repair_20261017_r17/HANDOFF.md",
+      "bytes": 5852,
+      "sha256": "57b85f4e493ec434eb2f8ccc645367fcf58faf79130064832be95d1c840f495e"
+    },
+    {
+      "path": "audit_affine_slack_20261017_r17/AUDIT.md",
+      "bytes": 17255,
+      "sha256": "d1611e13cb783d4ea8e1dc03c1d1bcc79eb2791e46127c8e0b1d23c158c728f8"
+    },
+    {
+      "path": "audit_affine_slack_20261017_r17/HANDOFF.md",
+      "bytes": 4007,
+      "sha256": "7dbf3565d9897adced5b11bdfcd0496c5edbb1402b6c585ded973aad7e571338"
+    }
+  ]
+}

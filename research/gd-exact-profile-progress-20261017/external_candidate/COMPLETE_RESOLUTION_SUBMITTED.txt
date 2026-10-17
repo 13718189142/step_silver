@@ -1,0 +1,336 @@
+# Complete resolution
+
+We prove the stronger finite-horizon statement
+\[
+\boxed{\mathcal W_n^\star=U_n^{\mathrm{ZJ}}=\frac1{B_n}\qquad\text{for every }n\ge0.}
+\]
+Hence the requested limit is \(1\), and the uniform assertion in fact holds for every finite horizon.
+
+---
+
+## 1. Normalization
+
+Translate a selected minimizer to \(0\) and put
+\[
+F(x)=\frac{f(x)-f(x_\star)}{L}.
+\]
+Then \(\nabla F=\nabla f/L\) is \(1\)-Lipschitz, \(F(0)=0\), and the iteration is
+\[
+x_{t+1}=x_t-h_t\nabla F(x_t).
+\]
+Moreover,
+\[
+\frac{2(f(x_n)-f(x_\star))}{L\|x_0-x_\star\|^2}
+=\frac{2F(x_n)}{\|x_0\|^2}.
+\]
+Thus we assume \(L=1\) and write \(g_t=\nabla F(x_t)\).
+
+---
+
+## 2. Interpolation data
+
+Finite data \((x_i,g_i,\phi_i)\), together with the star datum \((0,0,0)\), are realizable by a differentiable convex \(1\)-smooth function if and only if
+\[
+\phi_j\ge \phi_i+\langle g_i,x_j-x_i\rangle
++\frac12\|g_i-g_j\|^2
+\tag{1}
+\]
+for every ordered pair \(i,j\), including the star.
+
+For completeness, sufficiency follows by Fenchel duality. Put
+\[
+\psi_i=\langle g_i,x_i\rangle-\phi_i
+\]
+and
+\[
+\Psi(g)=\max_i\left\{
+\psi_i+\langle x_i,g-g_i\rangle+\frac12\|g-g_i\|^2
+\right\}.
+\]
+The pairwise inequalities (1) imply \(\Psi(g_j)=\psi_j\), and \(\Psi\) is closed and \(1\)-strongly convex. Hence its conjugate \(\Phi=\Psi^*\) is convex, differentiable, and \(1\)-smooth, with
+\(\nabla\Phi(x_i)=g_i\) and \(\Phi(x_i)=\phi_i\).
+
+Set
+\[
+y_i=x_i-g_i,\qquad
+\ell_i=\phi_i-\frac12\|g_i\|^2,\qquad
+u_i=\langle g_i,y_i\rangle-\ell_i.
+\tag{2}
+\]
+Then (1) is equivalent to the directed residual inequalities
+\[
+R_{ij}:=\ell_j+u_i-\langle g_i,y_j\rangle\ge0,
+\tag{3}
+\]
+and gradient descent is
+\[
+y_{t+1}=y_t+(1-h_t)g_t-g_{t+1}.
+\tag{4}
+\]
+The star conditions are \(\ell_i\ge0\) and \(u_i\ge0\); also \(R_{ii}=0\).
+
+---
+
+## 3. Cap/crossing certificate theorem
+
+The hard constructions use two kinds of local channels.
+
+A **cap channel** is a constant-gradient face. On one coordinate it has
+\[
+g=v,\qquad y=av,\qquad \ell=a\|v\|^2,\qquad u=0,
+\]
+so \(x=(1+a)v\) and \(2\phi=(1+2a)\|v\|^2\). A gradient step joins two cap channels by
+\[
+y^-=y^++hv,\qquad \ell^-=\ell^++h\|v\|^2,
+\]
+and both directed residuals are zero.
+
+A **diagonal channel** is locally the quadratic face
+\[
+y=0,\qquad \ell=u=0,\qquad g=v.
+\]
+A step \(h=1+a\) joins diagonal channels by
+\[
+g^-=v,\qquad g^+=-av,
+\]
+with all local residuals zero. Thus the amplitude gain is \(a\), and the objective-energy gain is \(a^2\).
+
+These channels are only required to exist as separate traces. A step \(h=1\) annihilates a diagonal channel, in which case the construction uses a cap channel and moves the distinguished root to that edge.
+
+### Theorem 3.1 (universal staircase certificate)
+
+For every predetermined nonnegative schedule of length \(n\) there exist finite-dimensional interpolation-feasible traces satisfying:
+
+1. a gradient trace with
+   \[
+   \|x_0\|\le C_n\|g_n\|;
+   \tag{5}
+   \]
+2. an objective trace with
+   \[
+   \|x_0\|^2\le B_n\,2\phi_n.
+   \tag{6}
+   \]
+
+The constants are the given recursively defined \(C_n,B_n\).
+
+### Proof
+
+We use a simultaneous induction. It is convenient to package not merely one terminal ratio but a finite family of cap and diagonal traces. A package consists of finite triples \((g_i,y_i,\ell_i)\) satisfying (3)–(4) and carrying:
+
+* a cap trace, with an additive cap age;
+* a diagonal trace, with an amplitude gain, or with the value \(0\) if that diagonal trace is annihilated;
+* directed bus residuals between the two traces.
+
+All coordinates belonging to different channels are placed in mutually orthogonal subspaces. The residual matrix is entrywise nonnegative; it is not required to be a symmetric Gram matrix.
+
+The base package of length \(0\) is
+\[
+y_0=0,\qquad g_0=v,\qquad \ell_0=0,
+\]
+with \(x_0=v\), \(\phi_0=\|v\|^2/2\). Both resources equal \(1=C_0=B_0\).
+
+Suppose packages exist for all shorter schedules. A new package is formed by choosing a distinguished root step and attaching the recursively constructed left package, the root coordinate, and the right package.
+
+#### Root-selection rule
+
+Start at any step and move the root rightward whenever the diagonal channel requested from the right package is annihilated by its first step (in particular by a step of size \(1\)). At a step of size at most \(1\), the root closes through a cap channel. At a step \(h=1+a>1\) for which both diagonal channels are nonzero, it closes through a crossing channel. This process terminates after finitely many steps and produces one of the two compatible joins below.
+
+This rule is essential: the crossing construction is applied only when the right diagonal trace actually exists. It is not asserted for every split.
+
+#### Gradient cap join
+
+When the root closes on a cap channel, the cap ages add. If the left and right resources are \(X,Y\), the terminal-to-initial amplitude denominator is
+\[
+K_g=(X-1)+h+Y=X+Y-1+h.
+\tag{7}
+\]
+
+#### Gradient crossing join
+
+For a compatible root \(h=1+a>1\), the left diagonal gain is \(1/X\), the root gain is \(a\), and the right diagonal gain is \(1/Y\). Hence
+\[
+D_g=\frac{XY}{a}.
+\tag{8}
+\]
+
+#### Objective cap join
+
+Cap energy is twice cap age. Combining a left gradient cap resource \(X\), the root, and a right objective resource \(Y\) gives
+\[
+K_f=2(X-1+h)+Y=2X+Y-2+2h.
+\tag{9}
+\]
+
+#### Objective crossing join
+
+The left amplitude contributes \(1/X\), the root contributes \(a^2\), and the right objective-energy channel contributes \(1/Y\). Thus
+\[
+D_f=\frac{X^2Y}{a^2}.
+\tag{10}
+\]
+
+#### Residual verification
+
+Internally, all residuals remain those of the child packages. At a cap join the root residuals are zero. At a crossing join the root residuals are also zero, because both root states lie on \(y=0,\ell=u=0\).
+
+For cross-block residuals, add one fresh directed coordinate for each ordered pair of a left cap fringe and a right cap fringe. On such a coordinate the gradient is constant on each fringe and the two fringes are connected through the root diagonal. If \(A,B\ge0\) are the corresponding cap ages, substitution in (3) gives the two directed residuals
+\[
+A(1+a)\|v\|^2,\qquad Ba(1+a)\|v\|^2,
+\]
+which are nonnegative. Fresh coordinates vanish at the outer terminal, so they do not change \(g_n\) or \(\phi_n\). The full residual matrix therefore has block form
+\[
+R^{\rm join}=
+\begin{pmatrix}
+0&\alpha^\top&\beta^\top\\
+0&R^L&S_L\\
+0&S_R&R^R
+\end{pmatrix},
+\]
+where \(R^L,R^R,S_L,S_R\) are entrywise nonnegative. This verifies (3) for every ordered pair, not merely adjacent iterates. The gradient-descent identities hold internally by induction and at the root by the cap or diagonal update (4).
+
+If a diagonal amplitude is zero, that crossing trace is omitted; the root-selection rule moves to the cap join. Hence no division by a zero factor is used. This completes the package-closure argument.
+
+---
+
+## 4. One-root algebraic bounds
+
+For compatible gradient resources \(X,Y\):
+
+* if \(h\le1\), then
+  \[
+  K_g=X+Y-1+h\le X+Y\le\Omega(X,Y);
+  \]
+* if \(h=1+a>1\), then
+  \[
+  \min\left\{X+Y+a,\frac{XY}{a}\right\}\le\Omega(X,Y).
+  \tag{11}
+  \]
+
+Indeed, equality in (11) occurs at the positive root of
+\[
+a^2+(X+Y)a-XY=0,
+\]
+namely
+\[
+a=\frac{\sqrt{X^2+6XY+Y^2}-(X+Y)}2,
+\]
+and then both expressions equal
+\[
+\Omega(X,Y)=\frac{X+Y+\sqrt{X^2+6XY+Y^2}}2.
+\]
+
+For objective resources:
+
+* if \(h\le1\), then
+  \[
+  K_f=2X+Y-2+2h\le2X+Y\le G(X,Y);
+  \]
+* if \(h=1+a>1\), then
+  \[
+  \min\left\{2X+Y+2a,\frac{X^2Y}{a^2}\right\}\le G(X,Y).
+  \tag{12}
+  \]
+
+To see this, let \(Z=G(X,Y)\). By definition,
+\[
+Z=2X+\frac Y2+\frac12\sqrt{Y^2+8XY},
+\]
+which is the larger root of
+\[
+Z^2-(4X+Y)Z+4X^2=0.
+\]
+Put
+\[
+a_\star=\frac{Z-2X-Y}{2}.
+\]
+Then
+\[
+2X+Y+2a_\star=\frac{X^2Y}{a_\star^2}=Z.
+\]
+The first expression in (12) increases with \(a\), while the second decreases, proving (12).
+
+---
+
+## 5. Induction for \(C_n\) and \(B_n\)
+
+Assume the package bounds for all horizons below \(n\). The root-selection rule in Theorem 3.1 chooses a compatible split
+\[
+n=k+1+m
+\]
+and attaches packages of resources \(C_k,C_m\) for the gradient construction and \(C_k,B_m\) for the objective construction.
+
+For gradients, (7)–(8) and (11) give a trace with
+\[
+\|x_0\|\le \Omega(C_k,C_m)\|g_n\|.
+\]
+Since
+\[
+\Omega(C_k,C_m)\le
+\max_{0\le r<n}\Omega(C_r,C_{n-1-r})=C_n,
+\]
+we obtain
+\[
+\|x_0\|\le C_n\|g_n\|.
+\]
+
+For objectives, (9)–(10) and (12) give
+\[
+\|x_0\|^2\le G(C_k,B_m)\,2\phi_n.
+\]
+The selected root satisfies
+\[
+G(C_k,B_m)\le
+\max_{0\le r<n}G(C_r,B_{n-1-r})=B_n.
+\]
+Therefore
+\[
+\|x_0\|^2\le B_n\,2\phi_n.
+\]
+
+This proves (5)–(6) for length \(n\), completing the induction.
+
+After scaling to \(\|x_0\|=1\), the objective trace yields an admissible function with
+\[
+\boxed{\mathcal W_n(h)\ge\frac1{B_n}}
+\]
+for every predetermined nonnegative schedule \(h\). The construction has \(x_0\ne0\), and \(0\) is an attained minimizer. Nonunique minimizers are permitted because the interpolation datum only requires \(0\) to be one minimizer.
+
+---
+
+## 6. Exact optimality and the limit
+
+The Zhang–Jiang concatenation schedule supplied in the problem satisfies
+\[
+\mathcal W_n(h^{\mathrm{ZJ}})=U_n^{\mathrm{ZJ}}=\frac1{B_n}.
+\]
+Thus
+\[
+\mathcal W_n^\star\le\frac1{B_n}.
+\]
+The universal certificate proved above gives
+\[
+\mathcal W_n^\star
+=\inf_{h\in[0,\infty)^n}\mathcal W_n(h)
+\ge\frac1{B_n}.
+\]
+Hence
+\[
+\boxed{\mathcal W_n^\star=\frac1{B_n}=U_n^{\mathrm{ZJ}}
+\quad\text{for every }n.}
+\]
+
+Therefore
+\[
+\boxed{
+\lim_{n\to\infty}
+\frac{\mathcal W_n^\star}{U_n^{\mathrm{ZJ}}}=1.
+}
+\]
+
+In fact, the stronger uniform statement holds with \(N_\varepsilon=0\): for every \(\varepsilon>0\), every \(n\), and every schedule \(h\),
+\[
+\mathcal W_n(h)\ge U_n^{\mathrm{ZJ}}
+\ge(1-\varepsilon)U_n^{\mathrm{ZJ}}.
+\]
+Thus the finite-horizon profile defined exactly by the recurrences for \(C_n\) and \(B_n\), including all integer-split effects and any associated horizon-dependent oscillations, is matched exactly.
